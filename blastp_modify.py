@@ -4,7 +4,7 @@ import sys
 def arg(argv):
     import argparse
     parser = argparse.ArgumentParser(description = "Recalculated the blastp results file, including Cover Percent and Identity",epilog = "")
-    parser.add_argument("-f",help="The file of protein_compere_no_bone.out")
+    parser.add_argument("-f",help="The file of protein_compere_bone.out")
     parser.add_argument("-o",help="outfile name")
     args = parser.parse_args()
     blastp = args.f
